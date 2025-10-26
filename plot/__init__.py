@@ -11,7 +11,7 @@ def differential_equation(x, y):
     """
     dydx = np.zeros(2)
     dydx[0] = y[1]
-    dydx[1] = 6*y[1] + 8*y[0]
+    dydx[1] = -6*y[1] + 8*y[0]
     return dydx
 
 # === Аналитическое решение ===
